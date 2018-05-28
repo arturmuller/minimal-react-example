@@ -1,0 +1,23 @@
+{
+  "name": "minimal-react-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon --quiet",
+    "open": "open ./output/index.html"
+  },
+  "keywords": [],
+  "author": "Artur Muller <me@arturmuller.com> (http://arturmuller.com)",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^6.0.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-hyperscript": "^3.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
